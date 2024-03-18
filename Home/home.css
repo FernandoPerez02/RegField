@@ -1,0 +1,38 @@
+
+.header{
+    background: #5a7346 !important;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    align-items: center;    
+  }
+
+  .img-logo {
+    display: flex;
+    height: 190px;
+    text-align: right;
+  }
+
+  .menu{
+    display: flex;
+    background: #5a7346;
+    width: 300px;
+    height: 500px;
+    padding-right: 100px;
+    }
+
+    .opcion{
+        display: flex;
+        color: black;
+        justify-content: space-evenly;
+        font-size: 30px; 
+        line-height: 70px; 
+        font-family: 'Segoe UI';
+    }
+    a{
+        text-decoration-line: none !important;
+    }

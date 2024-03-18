@@ -1,0 +1,85 @@
+body {
+  background-color: #5a7346 !important ;
+}
+
+.header {
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-area: "img-login title title";
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.img-logo {
+  width: 200px;
+  height: 100px;
+  text-align: right;
+}
+.img {
+  width: 100px;
+}
+
+.title {
+  text-align: center;
+}
+h1{
+  font-size: 40px !important;
+}
+
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 400px;
+  width: 400px;
+  color: #ffffff;
+  
+}
+
+.form-control {
+  width: 300px !important;
+}
+.carrusel {
+  width: 600px;
+  border: 5px;
+}
+
+.img-carousel {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+div.mb-2{
+  display: flex;
+  justify-content: center;
+}
+
+.recu{
+  display: flex;
+  justify-content: center;
+}
+.indice{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
